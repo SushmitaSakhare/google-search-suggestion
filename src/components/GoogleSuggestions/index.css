@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.suggestion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+.search-input-suggestion-container {
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 24px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+}
+
+.search-logo {
+  width: 16px;
+  height: 16px;
+}
+
+.search-input {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #64748b;
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin-left: 16px;
+}
+
+.suggestion-list {
+  margin: 0;
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-container {
+    margin-top: 150px;
+  }
+
+  .logo {
+    width: 430px;
+    height: 135px;
+  }
+
+  .search-input-suggestion-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 45px;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+  }
+
+  .search-logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .search-input {
+    font-size: 20px;
+    height: 40px;
+    margin-left: 8px;
+  }
+
+  .suggestion-list {
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+}
